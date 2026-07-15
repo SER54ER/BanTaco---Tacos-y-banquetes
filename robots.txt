@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# TODO: reemplazar por el dominio definitivo.
+Sitemap: https://TU-USUARIO.github.io/TU-REPOSITORIO/sitemap.xml
