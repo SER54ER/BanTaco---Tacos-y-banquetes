@@ -4,10 +4,9 @@
   const config = window.BANTACO_CONFIG;
   const nativeButton = document.getElementById('shareNative');
   const whatsapp = document.getElementById('shareWhatsapp');
-  const facebook = document.getElementById('shareFacebook');
   const copyButton = document.getElementById('copyLink');
   const status = document.getElementById('shareStatus');
-  if (!whatsapp || !facebook || !copyButton || !status) return;
+  if (!whatsapp || !copyButton || !status) return;
 
   function currentUrl() {
     return window.location.href;
@@ -17,7 +16,6 @@
     const url = currentUrl();
     const message = `${config.shareText} ${url}`;
     whatsapp.href = `https://wa.me/?text=${encodeURIComponent(message)}`;
-    facebook.href = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`;
   }
 
   async function copyUrl() {
