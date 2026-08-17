@@ -14,7 +14,6 @@
     longitude: -102.2700457005695,
     instagram: 'https://www.instagram.com/ban_taco/',
     tiktok: 'https://www.tiktok.com/@taqueriabantaco?_r=1&_t=ZS-983CUiHzI2a',
-    facebook: 'https://www.facebook.com/share/1cbcJQbE6D/',
     websiteUrl: '',
     contactEmail: '',
     timezone: 'America/Mexico_City',
@@ -57,7 +56,6 @@
   siteConfig.social = {
     instagram: siteConfig.instagram,
     tiktok: siteConfig.tiktok,
-    facebook: siteConfig.facebook
   };
   window.BANTACO_CONFIG = deepFreeze(siteConfig);
 })();
